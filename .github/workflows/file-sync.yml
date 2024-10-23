@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.2.2
       - name: Copy needed files
         run: |
           Copy-Item ".github/ISSUE_TEMPLATE/config.yml" ".github/ISSUE_TEMPLATE/private/"
